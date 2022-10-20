@@ -1,0 +1,23 @@
+{
+    "name": "tutorial",
+    "version": "1.11.2",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "test": "echo you should do testing!"
+    },
+    "dependencies": {
+        "next": "12.2.5",
+        "@orgasmo/orgasmo": "1.11.2",
+        "@orgasmo/json": "1.11.2",
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+        "eslint": "8.23.0",
+        "eslint-config-next": "12.2.5"
+    }
+}
