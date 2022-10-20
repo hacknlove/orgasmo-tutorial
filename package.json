@@ -1,0 +1,28 @@
+{
+    "name": "1-clone-the-tutorial",
+    "version": "1.11.3",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "test": "echo you should do testing!",
+
+        "step": "echo $npm_package_name",
+        "help": "browse https://docs.orgasmo.dev/#/GettingStarted/Tutorial?id=_$npm_package_name",
+        "compare": "git difftool -d $npm_package_name",
+        "next": "git reset; git clean -f; git $npm_package_name" 
+    },
+    "dependencies": {
+        "@orgasmo/json": "1.11.2",
+        "@orgasmo/orgasmo": "^1.11.3",
+        "next": "12.2.5",
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+        "eslint": "8.23.0",
+        "eslint-config-next": "12.2.5"
+    }
+}
