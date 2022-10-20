@@ -25,6 +25,9 @@
             "text": "But don't go edit",
             "source": "pages/index.js"
           }
+        },
+        {
+          "type": "HelloWorld"
         }
       ]
     },
