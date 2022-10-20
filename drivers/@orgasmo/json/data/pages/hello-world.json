@@ -1,0 +1,13 @@
+{
+  "pageId": "HelloWorld",
+  "exactPath": "/hello-world",
+  "areas": {
+    "main": {
+      "items": [
+        {
+          "type": "HelloWorld"
+        }
+      ]
+    }
+  }
+}
