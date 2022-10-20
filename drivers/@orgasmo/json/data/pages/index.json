@@ -18,6 +18,59 @@
           }
         }
       ]
+    },
+    "main": {
+      "items": [
+        {
+          "type": "CardLink",
+          "props": {
+            "title": "Alderaan",
+            "href": "/hello/Alderaan"
+          }
+        },
+        {
+          "type": "CardLink",
+          "props": {
+            "title": "Arrakis",
+            "href": "/hello/Arrakis"
+          }
+        },
+        {
+          "type": "CardLink",
+          "props": {
+            "title": "Discworld",
+            "href": "/hello/Discworld"
+          }
+        },
+        {
+          "type": "CardLink",
+          "props": {
+            "title": "Krypton",
+            "href": "/hello/Krypton"
+          }
+        },
+        {
+          "type": "CardLink",
+          "props": {
+            "title": "Magrathea",
+            "href": "/hello/Magrathea"
+          }
+        },
+        {
+          "type": "CardLink",
+          "props": {
+            "title": "Vulcan",
+            "href": "/hello/Vulcan"
+          }
+        },
+        {
+          "type": "CardLink",
+          "props": {
+            "title": "Pluto",
+            "href": "/hello/Pluto"
+          }
+        }
+      ]
     }
   }
 }
