@@ -1,0 +1,23 @@
+{
+  "pageId": "hello-planet",
+  "patternPath": "/hello/:planet",
+  "layout": {
+    "name": "PlanetsLayout",
+    "meta": [
+      ["title", "Hello planet"],
+      ["description", "Hello this planet"]
+    ]
+  },
+  "areas": {
+    "header": {
+      "items": [
+        {
+          "type": "Header",
+          "props": {
+            "text": "Hello planet"
+          }
+        }
+      ]
+    }
+  }
+}
