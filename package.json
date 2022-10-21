@@ -1,5 +1,5 @@
 {
-    "name": "4-add-a-dynamic-component",
+    "name": "5-styling",
     "version": "1.11.3",
     "private": true,
     "scripts": {
@@ -8,11 +8,10 @@
         "start": "next start",
         "lint": "next lint",
         "test": "echo you should do testing!",
-
         "step": "echo $npm_package_name",
         "help": "browse https://docs.orgasmo.dev/#/GettingStarted/Tutorial?id=_$npm_package_name",
         "compare": "git difftool -d $npm_package_name",
-        "next": "git reset; git clean -f; git $npm_package_name" 
+        "next": "git reset; git clean -f; git $npm_package_name"
     },
     "dependencies": {
         "@orgasmo/json": "1.11.2",
