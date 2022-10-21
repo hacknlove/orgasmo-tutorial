@@ -2,7 +2,7 @@
   "pageId": "/",
   "exactPath": "/",
   "layout": {
-    "name": "Layout",
+    "name": "PlanetsLayout",
     "meta": [
       ["title", "Hello worlds"],
       ["description", "Hello all the worlds"]
