@@ -2,7 +2,7 @@
   "pageId": "/",
   "exactPath": "/",
   "layout": {
-    "name": "PlanetsLayout",
+    "name": "Layout",
     "meta": [
       ["title", "Hello worlds"],
       ["description", "Hello all the worlds"]
@@ -70,7 +70,10 @@
             "href": "/hello/Pluto"
           }
         }
-      ]
+      ],
+      "mode": "bubble",
+      "ssrSize": 10,
+      "getItem": "planet.getAnotherPlanet"
     }
   }
 }
