@@ -1,5 +1,5 @@
 {
-    "name": "7-dynamic-routes",
+    "name": "8-custom-driver-methods",
     "version": "1.11.3",
     "private": true,
     "scripts": {
@@ -11,7 +11,7 @@
         "step": "echo $npm_package_name",
         "help": "browse https://docs.orgasmo.dev/#/GettingStarted/Tutorial?id=_$npm_package_name",
         "compare": "git difftool -d $npm_package_name",
-        "next": "git reset; git clean -f; git $npm_package_name"
+        "next": "git reset; git clean -f; git checkout $npm_package_name"
     },
     "dependencies": {
         "@orgasmo/json": "1.11.2",
