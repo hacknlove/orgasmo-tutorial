@@ -13,9 +13,7 @@
       "items": [
         {
           "type": "Header",
-          "props": {
-            "text": "Hello planet"
-          }
+          "getProps": "planet.sayHello"
         }
       ]
     }
